@@ -1,0 +1,13 @@
+.sidebar {
+  flex: 1;
+  height: 100vh;
+  background: #000;
+  color: #fff;
+  overflow-y: auto;
+  position: sticky;
+  top: 0;
+}
+
+.sidebar li.active {
+  color: red;
+}
